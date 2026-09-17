@@ -1,22 +1,33 @@
+
+/*Home page = shop section */
+
 .product-card{
  
     border: 1px solid #ddd;
     padding: 15px;
     margin: 10px;
     width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     
 }
 
-.product-card {
+.products {
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
 }
+
 
 .product-card img {
 
 width: 100%;
 height: 200px;
 object-fit: cover;
+border-radius: 6px;
+
 
 }
 
@@ -26,7 +37,8 @@ padding: 40px 20px;
 
 }
 
-.shop h2 {
+.shop h2,
+.shop p {
 
     text-align: center;
     margin-bottom: 20px;
@@ -38,4 +50,79 @@ padding: 40px 20px;
     display: inline-block;
     padding: 10px 15px;
     text-decoration: none;
+    background-color: #e75480;
+    color: white;
+}
+
+.product-card a:hover {
+
+    background-color:#c93d68;
+
+}
+
+
+/*Home page = about section */
+
+.about {
+
+padding: 40px 20px;
+
+}
+
+.about h2,
+.about p {
+
+text-align: center;
+
+}
+
+
+/*Home page = contact  section */
+
+.contact {
+    padding: 40px 20px;
+}
+
+.contact h2,
+.contact p,
+.contact a {
+
+    text-align: center;
+}
+
+.contact a {
+
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: #e75480;
+    color: white;
+    margin-top: 15px;
+
+}
+
+
+.contact a:hover {
+
+    background-color: #c93d68;
+}
+
+
+/*Shop page = shop   section */
+
+.shop-page {
+
+    padding: 40px 20px;
+}
+
+.shop-page h1,
+.shop-page p {
+
+    text-align: center;
+}
+
+.shop-page + .products {
+
+   margin-top: 20px;
+
 }
