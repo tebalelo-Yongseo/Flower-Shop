@@ -126,3 +126,54 @@ text-align: center;
    margin-top: 20px;
 
 }
+
+/*Product page = product   section */
+
+
+.product-page {
+
+  padding: 40px 20px;
+
+}
+
+
+.product-page h1,
+.product-page p {
+
+   text-align: center;
+
+}
+
+.product-page img {
+
+    display: block;
+    width: 300px;
+    margin: 20px auto;
+
+}
+
+.product-price {
+ 
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.product-page button {
+
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #e75480;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+.product-page button:hover {
+     
+     background-color: #c93d68;
+
+}
